@@ -1,0 +1,219 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>lace UP</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#141613] dark group/design-root overflow-x-hidden"
+      style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'
+    >
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#2f352c] px-10 py-3">
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-4 text-white">
+              <div class="size-4">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" fill="currentColor"></path></svg>
+              </div>
+              <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">lace UP</h2>
+            </div>
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="#">New Arrivals</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Featured</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Brands</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Sale</a>
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
+                <div
+                  class="text-[#a8b2a3] flex border-none bg-[#2f352c] items-center justify-center pl-4 rounded-l-xl border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border-none bg-[#2f352c] focus:border-none h-full placeholder:text-[#a8b2a3] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value=""
+                />
+              </div>
+            </label>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#2f352c] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-white" data-icon="User" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#2f352c] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-white" data-icon="ShoppingBag" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM176,88a48,48,0,0,1-96,0,8,8,0,0,1,16,0,32,32,0,0,0,64,0,8,8,0,0,1,16,0Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDiluLv3HCdIu5j7Cg5-AcVI-zYfFB5S-cBMuGgblgZ4c9k_hm605RT8w208wrwGOVBpU563bSipQLOHxR8Eo_IFdexHZczmnFUAnvj3-M-yJxqa2UeHCVXm1rMTOR99OKs1gFLL5YoEYuALvzetAUko-gtdxWbs9ZsJNPxTCijDUkMuSfLGuFjjvnRYBb4IITcJqanFVMEfE5OrMHahr_jL0HnInVmlqnUjyoi8BvGDO8Nce-mqjRBwm0KrfFlMlcHKLCWGDDSLM6i");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-start justify-end px-4 pb-10 @[480px]:px-10"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDqRwinKX3ti3dz3zRY7i8HIyJTrYrTXZW7DU8V-l6MD-Zfu73vLhf2qh8znNrxKR5WoanD2ABL7rjsrKWdq02rR5z75HlRH1_9CFZXe5bDhswHH7Fc9lmotBCGh_J7bhn68jd77Wiq-DBNENpKtrxEpsCELWv1BZ8uBtrR4YDo-kQrFiH6moB5p8y_ESNr6pW6L2_90Tjw8NptzCWGfPGiaKwO3-PYG-5LaKG5OWwkqrHyDYw3dhiMFn7EdtDlDBzP3DYX0sYpDJh6");'
+                >
+                  <div class="flex flex-col gap-2 text-left">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Step into Style
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Discover the latest trends and iconic designs in footwear. Find your perfect pair today.
+                    </h2>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#b5dba3] text-[#141613] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                  >
+                    <span class="truncate">Shop Now</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">New Arrivals</h2>
+            <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+              <div class="flex items-stretch p-4 gap-3">
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBbuOfXes7hl1zXh7W6KEjw1KySY1_NgdmOeAZxoomFQ82xoBdHkUwIvjx8No1ol6Sm_N22M1rlR6zaxgRomK5mFWxoehMkJor905-XfIY0tAs2Z0j5LYliRFR0xbB5oozeINTwtfuOoZ1sF2eKyddojthq6GTcPJP8uijSn9WNoCEKzle0NOgSXuupJ9yh4cKSvHp-8i6B82TBBrvhBHvQgRbzie1fzj1bHa609YjpaA316-2QOPGbOtTwlLwCGRMI1srf6OXkQai-");'
+                  ></div>
+                  <div>
+                    <p class="text-white text-base font-medium leading-normal">Performance Runners</p>
+                    <p class="text-[#a8b2a3] text-sm font-normal leading-normal">Engineered for speed and comfort</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCmR2x_r1HC9UVlChoQp2_ylu1FT4UdI0b5hNkMjAmIyVpafd1BARwFoB59U6mu8B6ssm3GpqC_vxqUxkN0xbKENbqgTGOsDrpZmC6Lh3WmKR-L0gaq2993dggZ_sbSxl0XpS5DC9Zn8RXvYbXkZU4l5trpGTSDx1sRFA2RH1hvAt6gW7bhtLxNF2HLaVzk_QcZflLcycbSbRpqeNmkI_uBCd6RehIuwsjKf_11XFUQJUIn-to18wlrwKw5i4Du5Fy_nC0AdOJJZENY");'
+                  ></div>
+                  <div>
+                    <p class="text-white text-base font-medium leading-normal">Court Dominators</p>
+                    <p class="text-[#a8b2a3] text-sm font-normal leading-normal">Maximize your game on the court</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA0b8K3oz2LS2tRDlKrOqnQ5xK8uJ-oobj-sCYeVt-WFZ1qRiZ1Q4eLfmhasQV5Q3pSDyQLCGYU739RCesAP5iuJk9lx7Q7yAin8sVtDCca_aBLgx0jMKYuyDmIb8SEyT6y5kAVWgSgUilVaGwlIyubirBPuMauKeexyY3o70_IwgQDoDYVYayw9-ztBJJf50C8NZNDbcnLhiQfyK1tbc3bqjF662wnNW7DtzIr41N9pOxZfPCJpT77pYZCrVD8XvZe1V2gYC7ri4rL");'
+                  ></div>
+                  <div>
+                    <p class="text-white text-base font-medium leading-normal">Street Style Icons</p>
+                    <p class="text-[#a8b2a3] text-sm font-normal leading-normal">Elevate your everyday look</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBBrNC3tSwigG0vyPsg6c2MGJb_MOfg9ll68voJ7nLerLBWux-qQt-R-u_LUaF3-WGS53J2OdCfpzeJKqMqSKK35LCgCXi3wxuhuFH53fvWu3m7UP3mO_1NeNjUAKvJdYNVGoq02kfDfUqR7JVuQLExwoY45U4kitcZKjj-lc53Dl1-EmPCXUSzwTtAnbfWSNGCRrliCF2xDV9jX9WgSBgaEbjQ2RpP7sO5mz564hH8CUE5HE1mjaPNesKVUQIOCM0cpAozDFPd7oAs");'
+                  ></div>
+                  <div>
+                    <p class="text-white text-base font-medium leading-normal">Gym Ready Trainers</p>
+                    <p class="text-[#a8b2a3] text-sm font-normal leading-normal">Support and flexibility for your workouts</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Featured Sneakers</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBBWl-CtlG-VokIbaEsK2_w0V8EOQ1Mq-firmcka9lxDh-le9u3nMPisNgYjMLddv9JNa8vgbk5IaslSLtaKf6zA3xBN5nUGSjuSB3DvAfT0TqSfl0IivdCG-jOZ6jkCcK4W0hXWiw2slkE8EoUA2TEYSdj2wf5TeaAsMfXdQOKQEAsWIQdve1bOHiD_FloK6M5slCe_bVfIYfinnXRjeOFQmVEnqhu5l0uvFifddk0sfKNd9uXg3Zu7GSMmRTR_f40hXFExbf725Y-");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Retro Runners</p>
+                  <p class="text-[#a8b2a3] text-sm font-normal leading-normal">Timeless style with modern comfort</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC6SAWhLKV1cW67C0ti38uJQY6M7yPrj81VskozOHi0Dvv7rug4sZgFb2V-Ufza3zox6ytX321BcQzM0K7bgUzeEZoDD1jfXCwJ0UZ1JKjSk1TFgAWw4cHg0VFHl3DaBoot5TJ79J2q3GocHAhrl1TSDSxh_dIE9dhIjDnmZjladSEv4mArHsQilzEBvMNbSANyWoNMjtvS3C-Owv38HMlKzfViX_7jZRR522XAa-6Z_YMs4fAyoJAf4zR4fA9R9i6jwsr66Gopsukt");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">High-Top Classics</p>
+                  <p class="text-[#a8b2a3] text-sm font-normal leading-normal">Iconic basketball silhouettes</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDwEmmQ5iWq1xLfGmjfb7mKnH_i458Q2KNmnhbW903OCUOT9WYvCs9j5rtxuZMzQS8SJYjqK0IPhSDqthT9_VJa_k77-iLU339ghX52qDeeYJfBgqZjn1d-ZbJ1pLMoUPABn1JqtndL8JZYjmq7D6wTzUN_MyumM7Pbshw5c4xFxa2nvWdD4H7pyvaZkMQvb-s54FAR9gMzxElfNCGTKKKwmLjTmZCd97Q1WBPtz0FnbPp6kRI7b798uKqvGbCwpIDIfccD7LIhs4Yg");'
+                ></div>
+                <div>
+                  <p class="text-white text-base font-medium leading-normal">Limited Edition</p>
+                  <p class="text-[#a8b2a3] text-sm font-normal leading-normal">Exclusive releases for collectors</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Brand Highlights</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB5WXNA3gyFfT1gQe6o1H5bNHr1JFHwmoteKA8pKax7dc5dTXmHluR-i558dAZlYmikWcLCmxPNd9VK852zLMxmyTCOVzCEl7Jq5UEjGSioz5YnqsPnBZz3oy1vKHCTdZmXnJ8jAktCYJi5nEl9cDOtqL4aYFGfQCIfYTnmMciMBCFyxssNwWW_jFuPKFA2ouA1L5q3jfSTrOkkoo9hn_js8GT7Vxudhe1NvkU6TpCElFL2Q5hFrBQdYDTsPE3kb2k7Mh9DmH26mpRa");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuABRM4MxJejP3JjeKr13B2ul33nFRZcE2VZ7ORpcQGU1IgX1vtUsBx6X5a13errDC3PGYUNK_vALIfr5QbF98GaE3DivyZlS6q6O2PbtQl0G89VZwNXg0UwaL9DEtXopcxQD6FFkXs2v19xUMl1mRSZ911N3y28lJcpBzUesBpzixU8FjlX0UHkY9xNNQi5AvL4v5arhWSXfpDjctr06zuNbolqWOhQ6SHyYCzHkQ3PA03DMrP1R_ySi9jdhbvz228aXmyUWa4XgQLt");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAOxde1VHlxWEA2axUdrUWqwTfGfOzIsaIKXQYF45i0wNSg_yA82VgurkKaAdXKT294b0bkcscjJE-l1v_ZAkDdqN5VYWxTbuoCqp_6zBnnN_mk6Y1VDJRvjFwZF2JukLyuuw3JNSqIhw6BnXIBN0oAiMEejcKjrEKTlqNjTYbqEJWyvWMGDuRyiU16tAB8z7cYV7tYHgk2YOEkvnv2K4iIQ3TYA6hmsnK1g7VxkpIsqX5O19EnTdVfL8BszQLFTd6U_1sWDL0-NImX");'
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
